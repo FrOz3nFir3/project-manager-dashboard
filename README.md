@@ -25,7 +25,7 @@ npm run build
 Development Mode
 ```js
 npm run dev
-``
+```
 
 ### Potential Improvements
 Frontend
