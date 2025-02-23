@@ -20,9 +20,9 @@ const Budget = () => {
     }
 
     return <div className="space-y-8">
-        <div className="flex gap-4">
+        <div className="flex flex-wrap gap-4">
             <h2 className="text-2xl font-bold">Budget Status</h2>
-            <div className="flex gap-4">
+            <div className="flex flex-wrap gap-4">
                 {/* list of actionable buttons */}
                 <button onClick={handleAddData} className="btn btn-primary">Add New Project</button>
                 <button className="btn">Download report</button>

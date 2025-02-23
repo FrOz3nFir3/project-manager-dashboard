@@ -16,23 +16,18 @@ function App() {
         </React.Suspense>} />
 
         <Route path="projects" element={<React.Suspense fallback={<SuspenseLoader />}>
-          {/* <Authenticate /> */}
         </React.Suspense>} />
 
         <Route path="team" element={<React.Suspense fallback={<SuspenseLoader />}>
-          {/* <Logout /> */}
         </React.Suspense>} />
         
         <Route path="clients" element={<React.Suspense fallback={<SuspenseLoader />}>
-          {/* <Logout /> */}
         </React.Suspense>} />
 
         <Route path="time" element={<React.Suspense fallback={<SuspenseLoader />}>
-          {/* <Logout /> */}
         </React.Suspense>} />
 
         <Route path="reports" element={<React.Suspense fallback={<SuspenseLoader />}>
-          {/* <Logout /> */}
         </React.Suspense>} />
       </Routes>
     </BrowserRouter>
