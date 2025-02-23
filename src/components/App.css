@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@layer components {
+    .card {
+      @apply bg-white p-4 px-8 rounded-md shadow-lg;      
+    }
+
+    .btn {
+      @apply cursor-pointer border-2 border-cyan-500 text-cyan-500 font-semibold py-1 p-2 shadow-lg;
+    }
+    .btn-primary{
+      @apply bg-cyan-500 text-white;
+    }
+}
